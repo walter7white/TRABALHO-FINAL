@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Andrew</p>
+        <h1>Eu estudo sobre ...</h1>
+        <p>Sou apenas um estudante normal, estudo sobre tudo. Afim de futuros projetos com muitas necessidades </p>
+        <p>Minhas habilidades("atuais")</p>
+        <div>
+            <p class="badge bg-secondary">progamar em Python, C++, Delphi</p>
+            <p class="badge bg-secondary">química, tenho conhecimentos a frente do que é estudado comumente em escolas e afins</p>
+            <p class="badge bg-secondary">eletrôeletronica, estudos sobre montagem e manutenção de dispositivos, incluindo micro-chips</p>
+            <p class="badge bg-secondary">aprendo quaisquer coisas com facilidade, independente do que seja.... Isso se resume a aprender violão em 2 dias, francês básico em um mês, etc..</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus planos atuais</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">ITA: Futuro piloto da aeronáutica</h5>
+                        <p class="card-text"> uma serie de estudos afim de entrar para a aeronáutica, estes estudos incluem o mais complexo dos seguintes assuntos: Física, Matemática, Química</p>
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1"> Leia Mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">BOXE: Além do esporte</h5>
+                        <p class="card-text">Um dos meus hobbies favoritos</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Leia Mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Química, Um gosto pessoal
+                        </h5>
+                        <p class="card-text">Aqui conto sobre uma das minhas matérias favoritas senão, a Própria!
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Leia Mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Veja aqui o site ao qual ver os editais e qual meu método de estudo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Princípio disso tudo é começar por uma base de estudos, primeiro se faz uma pesquisa 
+                        a respeito do que é comumente passado durante a prova do ITA
+                    </p>
+                    <p>Após isso se divide aos dias, oque cada dia sera estudado. Como por exemplo, segunda se estuda matématica, as terças 
+                        se estuda química, as quartas se estuda física e por ai vai
+                    </p>
+                    <p>a rotina deve ser tudo, menos exaustante. Ao se estudar muito é comum você ficar cansado, ou entediado. E isso é horrivel.
+                        pra equilibrar isso eu crio uma necessidade de estudar algo, dizendo a mim mesmo "amanha é o dia da prova!" e então me dedicarei
+                        ainda mais do que antes.
+                    </p>
+                    <p>Um outro jeito eficaz de se manter estudando é criar uma rotina de treinos, assim você cansa tanto mentalmente
+                        quanto fisicamente, equilibrando ambos os lados. Evitando a disperção de dopamina e cerotonina, pois ambos são uteis para criar uma fonte de estudo forte </p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="bandeira ITA">
+                </div>
+                <div class="modal-footer">
+                    <a href="http://www.ita.br/">Aonde acompanhar o Edital?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">BOXE: Uma razão de vida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Boxe não só como esporte, mas como arte. Foi algo que me salvou de um futuro pessimo.
+                        quando criança nunca gostei muito de socializar com outras pessoas, ou jogar os esportes comuns como futebol,
+                        basquete, volêi e afins... Quase sempre nunca pratiquei um esporte físico
+                    </p>
+                    <p>Em 2019 durante a pandemia, acabei ficando muito depressivo, até que um amigo me apresentou o boxe.
+                        Algo que até então era apenas um passatempo, se tornou algo construtivo em minha vida. Me dedico ao boxe por 
+                    ser um dos unícos esportes ao qual gosto de praticar com toda a vontade. Me sinto mais Forte, mais confiante, melhor com si próprio
+                 </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Img boxe">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://plenae.com/coloque-em-pratica/quais-sao-os-beneficios-do-boxe/">algum dos benéficios causados pelo boxe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Química</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Sem sombras de duvida o estudo da química é um dos quais mais me interessa, pois a opnião comum
+                        , a Química é uma das matérias mais difíceis, isso de certa forma torna ela mais atraente aos meus olhos
+                    </p>
+                    <p>Trabalhei em alguns projetos estudando a respeito do efeito de combustão, embora anti-ético estudei que
+                        a maioria dos explosivos existentes são feito com componentes caseiros, como cascas de laranja. Uma fruta que contém limomeno
+                        em sua casca, um hidrocarboneto inflámavel.... Também estudei muito sobre energia renóvavel apartir do Gás Metano gerado de componentes orgânicos
+
+                    </p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.quimica.com.br/">Um site ao qual uso para estudar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/walter7white">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Andrew</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
